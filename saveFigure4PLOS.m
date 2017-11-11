@@ -33,7 +33,8 @@ fig=open([figname '.fig']);
 set(fig,'PaperPositionMode', 'auto');
 
 %% Print tiff image in 600 pixels/inch
-print(fig, '-dtiff', [figname '.tif'], '-r600', '-opengl');
+% print(fig, '-dtiff', [figname '.tif'], '-r600', '-opengl');
+print(fig, '-dtiff', [figname '.tif'], '-r600', '-painters');
 % print(fig, '-depsc2', [figname '.eps']);
 
 %% Get the margin sizes
