@@ -24,7 +24,7 @@ function iminfo=saveFigure4PLOS(figname)
 % Author: Eleftherios Avramidis $
 % Email: el.avramidis@gmail.com $
 % Date: 11/05/2018
-% Revision: 1.1
+% Version: 1.1
 % Copyright: MIT License
 
 %% Open test figure
