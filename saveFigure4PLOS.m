@@ -1,29 +1,30 @@
 function iminfo=saveFigure4PLOS(figname)
-%SAVEIMAGE4PLOS Save the figure in tiff and png files.
-%
-%   SAVEIMAGE4PLOS(figname) Save the figure in tiff and png files.
+%SAVEIMAGE4PLOS Stores the figure in tiff and png files and remove the 
+%extra whitespace around the figure.
 %
 % Syntax:  saveImage4PLOS(figname)
 %
 % Inputs:
-%   figurename - Figure name
+%   figname - Figure filename without the file expension
 %
 % Outputs:
-%    nan
+%    none
 %
 % Example:
-%    saveImage4PLOS('figure1')
+%    saveImage4PLOS('testFigure')
+%    This example removes the whitespace around the figure and store it in
+%    png and tif files.
 %
 % Other m-files required: none
 % Subfunctions: none
 % MAT-files required: none
 %
-% See also: nan
+% See also: none
 %
-% $Author: Eleftherios Avramidis $
-% $Email: el.avramidis@gmail.com $
-% $Date: 2015/11/20 $
-% $Revision: 1.0 $
+% Author: Eleftherios Avramidis $
+% Email: el.avramidis@gmail.com $
+% Date: 11/05/2018
+% Revision: 1.1
 % Copyright: MIT License
 
 %% Open test figure

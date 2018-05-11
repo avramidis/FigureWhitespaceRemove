@@ -1,5 +1,4 @@
-close all
-clear all
+function createTestFigure()
 
 % Change default axes fonts.
 set(0,'DefaultAxesFontName', 'Arial')
@@ -13,6 +12,9 @@ x=1:0.1:100;
 y=sin(x);
 plot(x,y);
 ylim([-1.5 1.5]);
+title('Test figure')
+xlabel('x')
+ylabel('y')
 
 % Save the figure
 saveas(gcf,'testFigure.fig');

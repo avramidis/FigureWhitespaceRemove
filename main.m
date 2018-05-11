@@ -1,5 +1,8 @@
 close all
-clear all
+clear variables
+
+% Create and example figure
+createTestFigure()
 
 % Process and save the figure
 iminfo=saveFigure4PLOS('testFigure');
