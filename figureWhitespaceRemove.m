@@ -1,5 +1,5 @@
 function iminfo=figureWhitespaceRemove(figname)
-%FIGUREWHITESPACEREMOVE Stores the figure in tiff and png files and remove
+%FIGUREWHITESPACEREMOVE Stores the figure in tiff and png files and removes
 %the extra whitespace around the figure.
 %
 % Syntax:  figureWhitespaceRemove(figname)
