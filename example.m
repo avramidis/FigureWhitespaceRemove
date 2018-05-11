@@ -5,7 +5,7 @@ clear variables
 createTestFigure()
 
 %% Process and save the figure
-iminfo=saveFigure4PLOS('testFigure');
+iminfo=figureWhitespaceRemove('testFigure');
 
 %% Calculate width and height in inches
 width=iminfo.Width/iminfo.XResolution;

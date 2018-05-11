@@ -1,8 +1,8 @@
-function iminfo=saveFigure4PLOS(figname)
-%SAVEIMAGE4PLOS Stores the figure in tiff and png files and remove the 
-%extra whitespace around the figure.
+function iminfo=figureWhitespaceRemove(figname)
+%FIGUREWHITESPACEREMOVE Stores the figure in tiff and png files and remove
+%the extra whitespace around the figure.
 %
-% Syntax:  saveImage4PLOS(figname)
+% Syntax:  figureWhitespaceRemove(figname)
 %
 % Inputs:
 %   figname - Figure filename without the file expension
@@ -11,7 +11,7 @@ function iminfo=saveFigure4PLOS(figname)
 %    none
 %
 % Example:
-%    saveImage4PLOS('testFigure')
+%    figureWhitespaceRemove('testFigure')
 %    This example removes the whitespace around the figure and store it in
 %    png and tif files.
 %
@@ -24,7 +24,7 @@ function iminfo=saveFigure4PLOS(figname)
 % Author: Eleftherios Avramidis $
 % Email: el.avramidis@gmail.com $
 % Date: 11/05/2018
-% Version: 1.1
+% Version: 1.2
 % Copyright: MIT License
 
 %% Open test figure
