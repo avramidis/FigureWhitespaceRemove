@@ -1,3 +1,31 @@
+%EXAMPLE Example script that demonstrates how to call the figureWhitespaceRemove
+%function.
+%
+% Syntax:  example
+%
+% Inputs:
+%   none
+%
+% Outputs:
+%    none
+%
+% Example:
+%    example
+%    This example script demonstrates how to call the figureWhitespaceRemove
+%    function.
+%
+% Other m-files required: none
+% Subfunctions: none
+% MAT-files required: none
+%
+% See also: none
+%
+% Author: Eleftherios Avramidis $
+% Email: el.avramidis@gmail.com $
+% Date: 12/05/2018
+% Version: 1.0
+% Copyright: MIT License
+
 close all
 clear variables
 
