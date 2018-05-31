@@ -1,6 +1,6 @@
 # FigureWhitespaceRemove
 
-[![license: MIT](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/avramidis/sodecl/blob/master/LICENSE)
+[![license: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/avramidis/sodecl/blob/master/LICENSE)
 
 FigureWhitespaceRemove is a MATLAB function for the removal of white space around exported figures to png and tiff files.
 
