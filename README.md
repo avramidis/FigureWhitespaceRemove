@@ -1,6 +1,7 @@
 # FigureWhitespaceRemove
 
 [![license: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/avramidis/FigureWhitespaceRemove/blob/master/LICENSE)
+[![DOI](https://zenodo.org/badge/49196982.svg)](https://zenodo.org/badge/latestdoi/49196982)
 
 FigureWhitespaceRemove is a MATLAB function for the removal of white space around exported figures to png and tiff files.
 
@@ -45,6 +46,9 @@ If the run was successful the output will be the iminfor struct that includes in
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+
+## How to cite FigureWhitespaceRemove
+To cite FigureWhitespaceRemove please cite the URL and the DOI of the release version you used. The DOI of the latest release is at the badge at the top of this README.md file.
 
 ## Acknowledgments
 
